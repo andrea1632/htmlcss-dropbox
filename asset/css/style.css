@@ -35,10 +35,13 @@
 .left-col-header{
     float: left;
     padding: 30px;
+    width: 50%;
 }
 .right-col-header{
     float: right;
     padding: 30px;
+    width: 50%;
+    text-align: right;
 }
 header nav .left-col-header ul li,
 header nav .right-col-header ul li{
@@ -230,4 +233,35 @@ h1{
     position: absolute;
     top: 40px;
     right: 40px;
+}
+.partner{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+.partner-sx img{
+    height: 600px;
+}
+.partner-dx p{
+    width: 70%;
+    line-height: 30px;
+}
+.partner-sx{
+    float: left;
+    width: 50%;
+}
+.partner-dx{
+    float: left;
+    width: 50%;
+}
+.partner-dx h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.partner-dx .button-squared{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 40px;
+    display: inline-block;
 }
