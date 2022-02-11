@@ -135,11 +135,11 @@ h1{
 }
 .radio{
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .col-1-business{
-    height: 900px;
     border: 1px solid #D0D0D3;
-    width: 33%;
+    padding-bottom: 200px;
 }
 .col-top{
     border-bottom: 1px solid #D0D0D3;
@@ -169,19 +169,65 @@ h1{
 }
 .list-business li:nth-child(1){
     list-style: url(./../img/user-regular.svg);
-    list-style-position: inside;
     font-size: 2em;
     font-size:1.5em;    
 }
 .list-business li:nth-child(2){
     list-style: url(./../img/folder-regular.svg);
-    list-style-position: inside;
     font-size: 2em;
     font-size:1.5em; 
 }
 .list-business li:nth-child(3){
     list-style: url(./../img/pen-solid.svg);
-    list-style-position: inside;
     font-size: 2em;
     font-size:1.5em; 
+}
+.col-content .button-squared{
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+.buy-now{
+    padding: 40px 0;
+}
+.buy-now a{
+    color: #0061FF;
+    text-decoration: underline;
+}
+.short-line{
+    width: 20%;
+}
+.footer-col{
+    margin-top: 40px;
+}
+.footer-col ul li{
+    margin: 10px 0;
+    list-style: url(./../img/check-solid.svg);
+    font-size: 1.5em;
+}
+.left,
+.middle,
+.right{
+    width: calc(100% / 3 - 7px);
+    float: left;
+}
+.middle{
+    margin: 0 10px;
+}
+.bottom-business{
+    margin-top: 50px;
+    border: 1px solid #D0D0D3;
+    position: relative;
+}
+.col-top .fa-building{
+    margin-right: 5px;
+}
+.bottom-business .col-content span{
+    display: block;
+    margin-top: 20px;
+}
+.bottom-business .col-content a{
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
