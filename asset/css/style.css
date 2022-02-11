@@ -43,7 +43,6 @@
 header nav .left-col-header ul li,
 header nav .right-col-header ul li{
     display: inline-block;
-    padding-top: 10px;
 }
 header nav .left-col-header ul li{
     margin-right: 40px;
@@ -62,6 +61,7 @@ header nav{
 }
 #logo{
     vertical-align: middle;
+    margin-bottom: 5px;
 }
 a{
     text-decoration: none;
@@ -74,4 +74,45 @@ a{
 }
 header nav ul li a:hover{
     text-decoration: underline;
+}
+/* END OF HEADER NAV */
+.hero{
+    margin-top: 85px;
+    background-color: #B4D0E7;
+}
+h1{
+    font-size: 5.5em;
+}
+.hero-content{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 150px;
+}
+.hero-sx{
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+    font-size: 1.5;
+}
+.hero-sx p{
+    width: 70%;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.hero-sx span{
+    display: block;
+    margin-top: 20px;
+}
+.fa-arrow-down{
+    font-size: 3em;
+    margin-top: 30px;
+}
+.hero-dx img{
+    width: 100%; 
+}
+.hero-dx{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
 }
