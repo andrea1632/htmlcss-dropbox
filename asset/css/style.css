@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 /* END OF RESET */
 
@@ -76,6 +77,9 @@ a{
     background-color:#0061FF;
     padding: 10px 20px;
     color: white;
+}
+.button-squared:hover{
+    background-color:#679df3;
 }
 header nav ul li a:hover{
     text-decoration: underline;
