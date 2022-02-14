@@ -377,6 +377,7 @@ h1{
 }
 .Designit{
     padding: 50px;
+    overflow-y: auto;
 }
 .grey-line{
     width: 10%;
@@ -447,4 +448,14 @@ h1{
     margin-left: 300px;
     float: right;
     cursor: pointer;
+}
+.faqs p{
+    display: none;
+}
+.menu-container .faqs:hover p{
+    display: block;
+    margin-top: 50px;
+}
+.menu-container .faqs:hover i{
+    transform: scaleY(-1);
 }
