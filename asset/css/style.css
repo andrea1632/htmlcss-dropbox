@@ -425,3 +425,26 @@ h1{
     text-decoration: underline;
     background-color: rgb(168, 168, 168);
 }
+/* FAQ */
+.faq{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+.menu-container h2{
+    font-size: 2em;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 60px;
+}
+.faqs{
+    padding: 60px 0;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+.faqs h3{
+    display: inline-block;
+}
+.faqs i{
+    margin-left: 300px;
+    float: right;
+    cursor: pointer;
+}
