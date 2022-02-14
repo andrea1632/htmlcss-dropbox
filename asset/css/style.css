@@ -8,10 +8,10 @@
 /* END OF RESET */
 
 /* UTIL */
-.clearfix{
-    content: "";
+.clearfix::after{
     clear: both;
-    display: table;
+    display: block;
+    content: "";
 }
 .bg-white{
     background-color: white;
@@ -362,7 +362,7 @@ h1{
     background-color: #61082B;
 }
 .bottom-left1{
-    background-color: #B4D0E7;
+    background-color: #5d9fd6;
 }
 .bottom-left1 img{
     height: 15%;
@@ -370,4 +370,58 @@ h1{
 .bottom-right1{
     background-color: red;
     filter: static;
+}
+/* DESIGNIT */
+.Designit img{
+    height: 50px;
+}
+.Designit{
+    padding: 50px;
+}
+.grey-line{
+    width: 10%;
+    height: 1px;
+    border-bottom: 1px solid #DEDEE0;
+    margin: 50px 0;
+}
+.Designit p:last-child{
+    margin-top: 50px;
+}
+/* SQUARES RIGHT */
+.top-left-2{
+    background-color: red;
+}
+.top-right-2{
+    background-color:#B4D0E7;
+}
+.bottom-left2{
+    background-color: #0D2481;
+}
+.bottom-right2{
+    background-color: #FFD830;
+}
+/* FREE TRIAL */
+.free-trial{
+    width: 100%;
+    background-color: #B4D0E7;
+}
+.trial-option{
+    width: 80%;
+    margin: auto;
+    padding: 120px 0;
+}
+.trial-option h2{
+    font-size: 2.5em;
+    color: #61082B;
+    display: inline-block;
+}
+.trial-option .button-squared{
+    float: right;
+    background-color: white;
+    color: black;
+    transition: background-color 1s ease-in-out;
+}
+.trial-option .button-squared:hover{
+    text-decoration: underline;
+    background-color: rgb(168, 168, 168);
 }
