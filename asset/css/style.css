@@ -61,6 +61,8 @@ header nav{
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid #D0D0D3;
+    z-index: 100;
 }
 #logo{
     vertical-align: middle;
@@ -208,14 +210,16 @@ h1{
     list-style: url(./../img/check-solid.svg);
     font-size: 1.5em;
 }
+
+/* CALC WIDTH COL BUSINESS */
 .left,
 .middle,
 .right{
-    width: calc(100% / 3 - 7px);
+    width: calc((100% / 3) - 42px);
     float: left;
 }
 .middle{
-    margin: 0 10px;
+    margin: 0 60px;
 }
 .bottom-business{
     margin-top: 50px;
@@ -264,4 +268,44 @@ h1{
     border: 1px solid black;
     margin-top: 40px;
     display: inline-block;
+}
+.hover-grey:hover{
+    background-color: #D0D0D3;
+}
+.list-business,
+.footer-col ul{
+    margin-left: 20px;
+}
+
+.cards{
+    width: 80%;
+    margin: auto;
+}
+.cards h2{
+    font-size: 2em;
+    margin-top: 80px;
+    font-weight: 800;
+}
+.card img{
+    width: 100%;
+    margin-top: 50px;
+}
+.card{
+    width: calc((100% / 3) - 60px);
+    float: left;
+}
+.card p{
+    line-height: 20px;
+    margin-top: 40px;
+}
+.c-1,
+.c-2{
+    margin-right: 30px;
+}
+.card span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card span:hover{
+    text-decoration: none;
 }
