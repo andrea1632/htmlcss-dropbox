@@ -249,18 +249,20 @@ h1{
 }
 .partner-sx img{
     height: 600px;
+    width: 100%;
 }
 .partner-dx p{
-    width: 70%;
+    width: 50%;
     line-height: 30px;
 }
 .partner-sx{
     float: left;
-    width: 50%;
+    width: calc(50% - 100px);
 }
 .partner-dx{
     float: left;
-    width: 50%;
+    margin-left: 100px;
+    width: calc(50% - 100px);
 }
 .partner-dx h2{
     font-size: 3em;
@@ -407,7 +409,6 @@ h1{
 .free-trial{
     width: 100%;
     background-color: #B4D0E7;
-    padding-top: 50px;
 }
 .trial-option{
     width: 80%;
