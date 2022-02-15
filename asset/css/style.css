@@ -35,14 +35,13 @@
 /* END OF UTIL */
 .left-col-header{
     float: left;
-    padding: 30px;
     width: 50%;
 }
 .right-col-header{
     float: right;
-    padding: 30px;
     width: 50%;
     text-align: right;
+    position: relative;
 }
 header nav .left-col-header ul li,
 header nav .right-col-header ul li{
@@ -50,9 +49,39 @@ header nav .right-col-header ul li{
 }
 header nav .left-col-header ul li{
     margin-right: 40px;
+    padding: 30px 0;
 }
 header nav .right-col-header ul li{
     margin-left: 40px;
+    padding: 30px 0;
+}
+#dropdown-h:hover .dropdown-header{
+    display: block;
+}
+.dropdown-header span a:hover{
+    border-bottom: 2px solid #317FFF;
+}
+.dropdown-header span{
+    display: block;
+}
+#dropdown-h{
+    position: relative;
+}
+.dropdown-header{
+    font-size: 1rem;
+    padding: 30px;
+    position: absolute;
+    z-index: 90;
+    background-color: #F9FAFD;
+    text-align: left;
+    width: 250px;
+    top: 86px;
+    left: -20px;
+    display: none;
+}
+.dropdown-header span:first-child{
+    margin-bottom: 10px;
+    display: inline-block;
 }
 header nav ul{
     list-style: none;
@@ -64,10 +93,13 @@ header nav{
     top: 0;
     border-bottom: 1px solid #D0D0D3;
     z-index: 100;
+    font-size: 20px;
 }
 #logo{
     vertical-align: middle;
     margin-bottom: 5px;
+    height: 20px;
+    margin-left: 15px;
 }
 a{
     text-decoration: none;
@@ -81,8 +113,10 @@ a{
 .button-squared:hover{
     background-color:#679df3;
 }
-header nav ul li a:hover{
-    text-decoration: underline;
+header nav ul li:hover{
+    border-bottom: 3px solid black;
+    border-radius: 2px;
+    border-bottom-style: inset;
 }
 /* END OF HEADER NAV */
 .hero{
