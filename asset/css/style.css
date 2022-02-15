@@ -302,9 +302,8 @@ h1{
     line-height: 20px;
     margin-top: 40px;
 }
-.c-1,
 .c-2{
-    margin-right: 30px;
+    margin:0 90px;
 }
 .card span{
     text-decoration: underline;
@@ -462,4 +461,49 @@ h1{
 }
 .menu-container .faqs:hover i{
     transform: scaleY(-1);
+}
+footer{
+    background-color: black;
+    margin-top: 100px;
+}
+footer nav ul{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+    width: 15%;
+    
+}
+footer nav{
+    padding: 100px;
+    margin-left: 100px;
+}
+footer nav ul li{
+    line-height: 32px;
+}
+footer nav ul li h4{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.6em;
+}
+footer nav ul li a{
+    color: white;
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+footer .grey-line{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.footer-text{
+    margin-left: 200px;
+    padding-bottom: 50px;
+    color: #999999;
+}
+.italian{
+    margin-top: 50px;
+}
+.italian i:last-child{
+    margin-left: 4px;
 }
